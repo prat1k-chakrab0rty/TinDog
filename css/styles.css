@@ -55,6 +55,7 @@ body{
     font-size: 1.25rem;
     font-family: "Montserrat-Light";
     text-align: right;
+    
 }
 .download-btn{
     font-size: 1.1rem;
@@ -160,6 +161,9 @@ body{
     }  
     #title{
         text-align: center;
+    }
+    .nav-item{
+        font-size: 2rem;
     }
 }
 .download-btn-l{
