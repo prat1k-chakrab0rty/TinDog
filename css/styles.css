@@ -54,6 +54,7 @@ body{
     padding: 0 18px;
     font-size: 1.25rem;
     font-family: "Montserrat-Light";
+    text-align: right;
 }
 .download-btn{
     font-size: 1.1rem;
@@ -160,13 +161,16 @@ body{
     #title{
         text-align: center;
     }
-    .download-btn-l{
-        margin-right: 20px;
-    }
-    .download-btn-r{
-        margin-left: 20px;
-        margin-right: 0;
-    }
+}
+.download-btn-l{
+    margin-left: 0;
+    margin-right: 2rm;
+    margin-bottom: 10%;
+}
+.download-btn-r{
+    margin-left: 2rem;
+    margin-right: 0;
+    margin-bottom: 10%;
 }
 #cta{
     background-color: #ff4c68;
@@ -177,7 +181,8 @@ body{
     font-size: 3.5rem;
     font-family: "Montserrat";
     line-height: 5rem;
-    padding-bottom: 2%;
+    padding-bottom: 20%;
+    padding-top: 15%;
 }
 #footer{
     background-color: white;
@@ -188,9 +193,15 @@ body{
     font-family: "Montserrat-Light";
     font-size: 1.5rem;
 }
-.footer-p-1{
-    font-family: "Montserrat";
-    font-size: 1.5rem;
-    padding-top: 5%;
-    margin-bottom: 0;
+.footer-icon{
+    font-size: 2rem;
+    margin: 0  .25% .5% .25%;
+}
+.container-fluid-3
+{
+padding: 3% 15% 0 15%; 
+
+}
+.icon-box{
+    margin: 0 auto;
 }
